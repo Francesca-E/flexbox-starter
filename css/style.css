@@ -1,0 +1,31 @@
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    background: url('../img/wow.png') bottom center no-repeat;
+    background-size: cover;
+}
+
+/* justify content is used in the parent container */
+/* align -items defines how flex-items are laid out on the cross axis. This is the difference between
+the align-items property and justify-content. */
+
+h1 {
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    color: #fff;
+    background: #f16059;
+    padding: 0 10%;
+    height: 10rem;
+}
